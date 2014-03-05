@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.Scanner;
-
+//hola
 class programa {
 
 	public static int factorial (int numero){
