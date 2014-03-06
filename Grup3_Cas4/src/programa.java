@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.Scanner;
-//hola
+
 class programa {
 
 	public static int factorial (int numero){
@@ -19,7 +19,7 @@ class programa {
     	System.out.print("Benvinguts al programa de Grup1!!! ");
        	System.out.print("\n----------------------------------\n\n");
         
-       	System.out.print("Tria una opciÃ³. 1- Factorial o 2- Potencies:  ");
+       	System.out.print("Tria una opció. 1- Factorial o 2- Potencies:  ");
 
         BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 
@@ -30,10 +30,10 @@ class programa {
         	Scanner escriu_numero=new Scanner(System.in);
     		int numero;
     		
-    		System.out.println("\nÃ‰s l'opciÃ³ factorial");		
+    		System.out.println("\nés l'opció factorial");		
     		System.out.print("\n");
     		
-    	    System.out.print("Escriu un nÃºmero enter i positiu: ");
+    	    System.out.print("Escriu un número enter i positiu: ");
     	    
     	    numero = escriu_numero.nextInt();
     	   
@@ -52,7 +52,7 @@ class programa {
             int numero, exponent;
             int potencia;
             
-            System.out.println("\nÃ‰s l'opciÃ³ potencia ");
+            System.out.println("\nés l'opció potencia ");
         	System.out.print("\n");
 
             System.out.print("Introduex un numero: ");
