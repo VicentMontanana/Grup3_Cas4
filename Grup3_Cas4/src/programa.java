@@ -3,13 +3,13 @@ import java.util.Scanner;
 
 class programa{
 
-	public static int factorial (int numero){
+	public static int calculfactorial (int numero){
 		 
 		if(numero==0)
 		return 1;
 		
 		else{
-			int resultat = numero * factorial(numero-1);
+			int resultat = numero * calculfactorial(numero-1);
 			return resultat;
 		}
 	}
@@ -45,7 +45,7 @@ class programa{
 			   	     	}
 			   	    	numero = escriu_numero.nextInt();
 		    	    }
-		   	    	System.out.println(factorial(numero));         		 
+		   	    	System.out.println(calculfactorial(numero));         		 
 		   
 		    		}
 		    	break;
